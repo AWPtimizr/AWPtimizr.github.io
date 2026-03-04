@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width,initial-scale=1"/>
-<title>CS2 Update — 22099296</title>
+<title>CS2 Update — 22202104</title>
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%230c0c1c'/><text x='16' y='23' font-size='20' text-anchor='middle' font-family='sans-serif' font-weight='900' fill='%239d4edd'>A</text></svg>"/>
 <meta name="theme-color" content="#0c0c1c"/>
 <style>
@@ -338,11 +338,11 @@ th[data-sort="desc"]::after { content: " \25BC"; font-size: 8px; color: var(--ac
       </div>
     </div>
     <div class="hdr-build">
-      <span class="build-prev">21868850</span>
+      <span class="build-prev">22063930</span>
       <span class="build-arr">&#8594;</span>
-      <span class="build-curr">22099296</span>
+      <span class="build-curr">22202104</span>
     </div>
-    <div class="hdr-date">Sat Feb 28, 2026  14:13 UTC</div>
+    <div class="hdr-date">Wed Mar 4, 2026  23:02 UTC</div>
   </div>
 </header>
 <nav class="dev-nav">
@@ -358,8 +358,8 @@ th[data-sort="desc"]::after { content: " \25BC"; font-size: 8px; color: var(--ac
 <div class="toc-hdr">Navigation</div>
 <a href="#summary" class="toc-lnk">Impact Summary</a>
 <div class="toc-grp">ANALYSIS</div>
-<a href="#file-diff" class="toc-lnk">Files (99)</a>
-<a href="#scoring" class="toc-lnk">Leak Score (0)</a>
+<a href="#file-diff" class="toc-lnk">Files (29)</a>
+<a href="#scoring" class="toc-lnk">Leak Score (960)</a>
 <div class="toc-grp">HISTORY</div>
 <a href="#history" class="toc-lnk">Build Log (3)</a>
 <div class="toc-grp">CS2 NEWS</div>
@@ -369,16 +369,16 @@ th[data-sort="desc"]::after { content: " \25BC"; font-size: 8px; color: var(--ac
 <section id="summary" class="card summary-card">
 <div class="sum-inner">
 <div class="sum-left">
-<div class="sum-title">CS2 Build 22099296</div>
-<div class="sum-date">Saturday, February 28, 2026  &#183;  14:13 UTC</div>
+<div class="sum-title">CS2 Build 22202104</div>
+<div class="sum-date">Wednesday, March 4, 2026  &#183;  23:02 UTC</div>
 <div class="alert alt-low"><span class="alert-icon">&#10003;</span><div>No catalog changes detected in this build.</div></div>
 </div>
 <div class="sum-right">
 <div class="srow stg"><span class="sricon">+</span><span class="srlbl">New Items</span><span class="srval">0</span></div>
 <div class="srow syel"><span class="sricon">~</span><span class="srlbl">Modified</span><span class="srval">0</span></div>
 <div class="srow sred"><span class="sricon">-</span><span class="srlbl">Removed</span><span class="srval">0</span></div>
-<div class="srow sacc"><span class="sricon">⚡</span><span class="srlbl">Leak Score</span><span class="srval">0</span></div>
-<div class="srow sblu"><span class="sricon">📄</span><span class="srlbl">Files Changed</span><span class="srval">99</span></div>
+<div class="srow sacc"><span class="sricon">⚡</span><span class="srlbl">Leak Score</span><span class="srval">960</span></div>
+<div class="srow sblu"><span class="sricon">📄</span><span class="srlbl">Files Changed</span><span class="srval">29</span></div>
 </div>
 </div>
 <div class="chips">
@@ -391,127 +391,353 @@ th[data-sort="desc"]::after { content: " \25BC"; font-size: 8px; color: var(--ac
 </div>
 </section>
 <section id="file-diff" class="csec">
-<h2 class="sh">File-Level Changes <span class="scnt mod">99</span></h2>
-<div class="file-sum"><span class="badge badge-a">+ 99 added</span><span class="badge badge-r">- 0 removed</span><span class="badge badge-m">~ 0 modified</span></div>
+<h2 class="sh">File-Level Changes <span class="scnt mod">29</span></h2>
+<div class="file-sum"><span class="badge badge-a">+ 0 added</span><span class="badge badge-r">- 0 removed</span><span class="badge badge-m">~ 29 modified</span></div>
 <table class="fidx">
 <thead><tr><th>File</th><th>Category</th><th>Changes</th></tr></thead>
 <tbody>
-<tr><td class="fp"><code>annotations/official/de_train/de_train.txt</code></td><td><span class="badge badge-a">NEW FILE</span></td><td class="fcc"><span class="pa">new</span></td></tr>
-<tr><td class="fp"><code>autobuy.txt</code></td><td><span class="badge badge-a">NEW FILE</span></td><td class="fcc"><span class="pa">new</span></td></tr>
-<tr><td class="fp"><code>cfg/moddefaults.txt</code></td><td><span class="badge badge-a">NEW FILE</span></td><td class="fcc"><span class="pa">new</span></td></tr>
-<tr><td class="fp"><code>cfg/video_defaults_0.txt</code></td><td><span class="badge badge-a">NEW FILE</span></td><td class="fcc"><span class="pa">new</span></td></tr>
-<tr><td class="fp"><code>cfg/video_defaults_1.txt</code></td><td><span class="badge badge-a">NEW FILE</span></td><td class="fcc"><span class="pa">new</span></td></tr>
-<tr><td class="fp"><code>cfg/video_defaults_2.txt</code></td><td><span class="badge badge-a">NEW FILE</span></td><td class="fcc"><span class="pa">new</span></td></tr>
-<tr><td class="fp"><code>cfg/video_defaults_3.txt</code></td><td><span class="badge badge-a">NEW FILE</span></td><td class="fcc"><span class="pa">new</span></td></tr>
-<tr><td class="fp"><code>cfg/video_version.txt</code></td><td><span class="badge badge-a">NEW FILE</span></td><td class="fcc"><span class="pa">new</span></td></tr>
-<tr><td class="fp"><code>dev_lowend_gpu_args.txt</code></td><td><span class="badge badge-a">NEW FILE</span></td><td class="fcc"><span class="pa">new</span></td></tr>
-<tr><td class="fp"><code>gamemodes_tools.txt</code></td><td><span class="badge badge-a">NEW FILE</span></td><td class="fcc"><span class="pa">new</span></td></tr>
-<tr><td class="fp"><code>gamemodes.txt</code></td><td><span class="badge badge-a">NEW FILE</span></td><td class="fcc"><span class="pa">new</span></td></tr>
-<tr><td class="fp"><code>maps/ar_pool_day.txt</code></td><td><span class="badge badge-a">NEW FILE</span></td><td class="fcc"><span class="pa">new</span></td></tr>
-<tr><td class="fp"><code>maps/de_ancient_night_retake.txt</code></td><td><span class="badge badge-a">NEW FILE</span></td><td class="fcc"><span class="pa">new</span></td></tr>
-<tr><td class="fp"><code>maps/de_ancient_retake.txt</code></td><td><span class="badge badge-a">NEW FILE</span></td><td class="fcc"><span class="pa">new</span></td></tr>
-<tr><td class="fp"><code>maps/de_anubis_retake.txt</code></td><td><span class="badge badge-a">NEW FILE</span></td><td class="fcc"><span class="pa">new</span></td></tr>
-<tr><td class="fp"><code>maps/de_dust2_retake.txt</code></td><td><span class="badge badge-a">NEW FILE</span></td><td class="fcc"><span class="pa">new</span></td></tr>
-<tr><td class="fp"><code>maps/de_inferno_retake.txt</code></td><td><span class="badge badge-a">NEW FILE</span></td><td class="fcc"><span class="pa">new</span></td></tr>
-<tr><td class="fp"><code>maps/de_mirage_retake.txt</code></td><td><span class="badge badge-a">NEW FILE</span></td><td class="fcc"><span class="pa">new</span></td></tr>
-<tr><td class="fp"><code>maps/de_nuke_retake.txt</code></td><td><span class="badge badge-a">NEW FILE</span></td><td class="fcc"><span class="pa">new</span></td></tr>
-<tr><td class="fp"><code>maps/de_overpass_retake.txt</code></td><td><span class="badge badge-a">NEW FILE</span></td><td class="fcc"><span class="pa">new</span></td></tr>
-<tr><td class="fp"><code>maps/de_train_retake.txt</code></td><td><span class="badge badge-a">NEW FILE</span></td><td class="fcc"><span class="pa">new</span></td></tr>
-<tr><td class="fp"><code>maps/de_vertigo_retake.txt</code></td><td><span class="badge badge-a">NEW FILE</span></td><td class="fcc"><span class="pa">new</span></td></tr>
-<tr><td class="fp"><code>maps/workshop_compatibility_versions.txt</code></td><td><span class="badge badge-a">NEW FILE</span></td><td class="fcc"><span class="pa">new</span></td></tr>
-<tr><td class="fp"><code>materials/effects/lightcookies.txt</code></td><td><span class="badge badge-a">NEW FILE</span></td><td class="fcc"><span class="pa">new</span></td></tr>
-<tr><td class="fp"><code>radial_quickinventory.txt</code></td><td><span class="badge badge-a">NEW FILE</span></td><td class="fcc"><span class="pa">new</span></td></tr>
-<tr><td class="fp"><code>rebuy.txt</code></td><td><span class="badge badge-a">NEW FILE</span></td><td class="fcc"><span class="pa">new</span></td></tr>
-<tr><td class="fp"><code>resource/csgo_brazilian.txt</code></td><td><span class="badge badge-a">NEW FILE</span></td><td class="fcc"><span class="pa">new</span></td></tr>
-<tr><td class="fp"><code>resource/csgo_bulgarian.txt</code></td><td><span class="badge badge-a">NEW FILE</span></td><td class="fcc"><span class="pa">new</span></td></tr>
-<tr><td class="fp"><code>resource/csgo_czech.txt</code></td><td><span class="badge badge-a">NEW FILE</span></td><td class="fcc"><span class="pa">new</span></td></tr>
-<tr><td class="fp"><code>resource/csgo_danish.txt</code></td><td><span class="badge badge-a">NEW FILE</span></td><td class="fcc"><span class="pa">new</span></td></tr>
-<tr><td class="fp"><code>resource/csgo_dutch.txt</code></td><td><span class="badge badge-a">NEW FILE</span></td><td class="fcc"><span class="pa">new</span></td></tr>
-<tr><td class="fp"><code>resource/csgo_finnish.txt</code></td><td><span class="badge badge-a">NEW FILE</span></td><td class="fcc"><span class="pa">new</span></td></tr>
-<tr><td class="fp"><code>resource/csgo_french.txt</code></td><td><span class="badge badge-a">NEW FILE</span></td><td class="fcc"><span class="pa">new</span></td></tr>
-<tr><td class="fp"><code>resource/csgo_german.txt</code></td><td><span class="badge badge-a">NEW FILE</span></td><td class="fcc"><span class="pa">new</span></td></tr>
-<tr><td class="fp"><code>resource/csgo_greek.txt</code></td><td><span class="badge badge-a">NEW FILE</span></td><td class="fcc"><span class="pa">new</span></td></tr>
-<tr><td class="fp"><code>resource/csgo_hungarian.txt</code></td><td><span class="badge badge-a">NEW FILE</span></td><td class="fcc"><span class="pa">new</span></td></tr>
-<tr><td class="fp"><code>resource/csgo_indonesian.txt</code></td><td><span class="badge badge-a">NEW FILE</span></td><td class="fcc"><span class="pa">new</span></td></tr>
-<tr><td class="fp"><code>resource/csgo_italian.txt</code></td><td><span class="badge badge-a">NEW FILE</span></td><td class="fcc"><span class="pa">new</span></td></tr>
-<tr><td class="fp"><code>resource/csgo_japanese.txt</code></td><td><span class="badge badge-a">NEW FILE</span></td><td class="fcc"><span class="pa">new</span></td></tr>
-<tr><td class="fp"><code>resource/csgo_koreana.txt</code></td><td><span class="badge badge-a">NEW FILE</span></td><td class="fcc"><span class="pa">new</span></td></tr>
-<tr><td class="fp"><code>resource/csgo_latam.txt</code></td><td><span class="badge badge-a">NEW FILE</span></td><td class="fcc"><span class="pa">new</span></td></tr>
-<tr><td class="fp"><code>resource/csgo_norwegian.txt</code></td><td><span class="badge badge-a">NEW FILE</span></td><td class="fcc"><span class="pa">new</span></td></tr>
-<tr><td class="fp"><code>resource/csgo_polish.txt</code></td><td><span class="badge badge-a">NEW FILE</span></td><td class="fcc"><span class="pa">new</span></td></tr>
-<tr><td class="fp"><code>resource/csgo_portuguese.txt</code></td><td><span class="badge badge-a">NEW FILE</span></td><td class="fcc"><span class="pa">new</span></td></tr>
-<tr><td class="fp"><code>resource/csgo_romanian.txt</code></td><td><span class="badge badge-a">NEW FILE</span></td><td class="fcc"><span class="pa">new</span></td></tr>
-<tr><td class="fp"><code>resource/csgo_russian.txt</code></td><td><span class="badge badge-a">NEW FILE</span></td><td class="fcc"><span class="pa">new</span></td></tr>
-<tr><td class="fp"><code>resource/csgo_schinese_pw.txt</code></td><td><span class="badge badge-a">NEW FILE</span></td><td class="fcc"><span class="pa">new</span></td></tr>
-<tr><td class="fp"><code>resource/csgo_schinese.txt</code></td><td><span class="badge badge-a">NEW FILE</span></td><td class="fcc"><span class="pa">new</span></td></tr>
-<tr><td class="fp"><code>resource/csgo_spanish.txt</code></td><td><span class="badge badge-a">NEW FILE</span></td><td class="fcc"><span class="pa">new</span></td></tr>
-<tr><td class="fp"><code>resource/csgo_swedish.txt</code></td><td><span class="badge badge-a">NEW FILE</span></td><td class="fcc"><span class="pa">new</span></td></tr>
-<tr><td class="fp"><code>resource/csgo_tchinese.txt</code></td><td><span class="badge badge-a">NEW FILE</span></td><td class="fcc"><span class="pa">new</span></td></tr>
-<tr><td class="fp"><code>resource/csgo_thai.txt</code></td><td><span class="badge badge-a">NEW FILE</span></td><td class="fcc"><span class="pa">new</span></td></tr>
-<tr><td class="fp"><code>resource/csgo_turkish.txt</code></td><td><span class="badge badge-a">NEW FILE</span></td><td class="fcc"><span class="pa">new</span></td></tr>
-<tr><td class="fp"><code>resource/csgo_ukrainian.txt</code></td><td><span class="badge badge-a">NEW FILE</span></td><td class="fcc"><span class="pa">new</span></td></tr>
-<tr><td class="fp"><code>resource/csgo_vietnamese.txt</code></td><td><span class="badge badge-a">NEW FILE</span></td><td class="fcc"><span class="pa">new</span></td></tr>
-<tr><td class="fp"><code>resource/overviews/ar_baggage.txt</code></td><td><span class="badge badge-a">NEW FILE</span></td><td class="fcc"><span class="pa">new</span></td></tr>
-<tr><td class="fp"><code>resource/overviews/ar_shoots_night.txt</code></td><td><span class="badge badge-a">NEW FILE</span></td><td class="fcc"><span class="pa">new</span></td></tr>
-<tr><td class="fp"><code>resource/overviews/ar_shoots.txt</code></td><td><span class="badge badge-a">NEW FILE</span></td><td class="fcc"><span class="pa">new</span></td></tr>
-<tr><td class="fp"><code>resource/overviews/cs_italy.txt</code></td><td><span class="badge badge-a">NEW FILE</span></td><td class="fcc"><span class="pa">new</span></td></tr>
-<tr><td class="fp"><code>resource/overviews/cs_office.txt</code></td><td><span class="badge badge-a">NEW FILE</span></td><td class="fcc"><span class="pa">new</span></td></tr>
-<tr><td class="fp"><code>resource/overviews/de_ancient_night.txt</code></td><td><span class="badge badge-a">NEW FILE</span></td><td class="fcc"><span class="pa">new</span></td></tr>
-<tr><td class="fp"><code>resource/overviews/de_ancient_v1.txt</code></td><td><span class="badge badge-a">NEW FILE</span></td><td class="fcc"><span class="pa">new</span></td></tr>
-<tr><td class="fp"><code>resource/overviews/de_ancient_v2.txt</code></td><td><span class="badge badge-a">NEW FILE</span></td><td class="fcc"><span class="pa">new</span></td></tr>
-<tr><td class="fp"><code>resource/overviews/de_ancient.txt</code></td><td><span class="badge badge-a">NEW FILE</span></td><td class="fcc"><span class="pa">new</span></td></tr>
-<tr><td class="fp"><code>resource/overviews/de_anubis.txt</code></td><td><span class="badge badge-a">NEW FILE</span></td><td class="fcc"><span class="pa">new</span></td></tr>
-<tr><td class="fp"><code>resource/overviews/de_dust.txt</code></td><td><span class="badge badge-a">NEW FILE</span></td><td class="fcc"><span class="pa">new</span></td></tr>
-<tr><td class="fp"><code>resource/overviews/de_dust2.txt</code></td><td><span class="badge badge-a">NEW FILE</span></td><td class="fcc"><span class="pa">new</span></td></tr>
-<tr><td class="fp"><code>resource/overviews/de_inferno_s2.txt</code></td><td><span class="badge badge-a">NEW FILE</span></td><td class="fcc"><span class="pa">new</span></td></tr>
-<tr><td class="fp"><code>resource/overviews/de_inferno.txt</code></td><td><span class="badge badge-a">NEW FILE</span></td><td class="fcc"><span class="pa">new</span></td></tr>
-<tr><td class="fp"><code>resource/overviews/de_mirage.txt</code></td><td><span class="badge badge-a">NEW FILE</span></td><td class="fcc"><span class="pa">new</span></td></tr>
-<tr><td class="fp"><code>resource/overviews/de_nuke.txt</code></td><td><span class="badge badge-a">NEW FILE</span></td><td class="fcc"><span class="pa">new</span></td></tr>
-<tr><td class="fp"><code>resource/overviews/de_overpass_2v2.txt</code></td><td><span class="badge badge-a">NEW FILE</span></td><td class="fcc"><span class="pa">new</span></td></tr>
-<tr><td class="fp"><code>resource/overviews/de_overpass.txt</code></td><td><span class="badge badge-a">NEW FILE</span></td><td class="fcc"><span class="pa">new</span></td></tr>
-<tr><td class="fp"><code>resource/overviews/de_train.txt</code></td><td><span class="badge badge-a">NEW FILE</span></td><td class="fcc"><span class="pa">new</span></td></tr>
-<tr><td class="fp"><code>resource/overviews/de_vertigo.txt</code></td><td><span class="badge badge-a">NEW FILE</span></td><td class="fcc"><span class="pa">new</span></td></tr>
-<tr><td class="fp"><code>resource/overviews/workshop_preview.txt</code></td><td><span class="badge badge-a">NEW FILE</span></td><td class="fcc"><span class="pa">new</span></td></tr>
-<tr><td class="fp"><code>resource/toolhelp_cs2_item_editor_english.txt</code></td><td><span class="badge badge-a">NEW FILE</span></td><td class="fcc"><span class="pa">new</span></td></tr>
-<tr><td class="fp"><code>resource/ui/radiopanel.txt</code></td><td><span class="badge badge-a">NEW FILE</span></td><td class="fcc"><span class="pa">new</span></td></tr>
-<tr><td class="fp"><code>scripts/collision_properties.txt</code></td><td><span class="badge badge-a">NEW FILE</span></td><td class="fcc"><span class="pa">new</span></td></tr>
-<tr><td class="fp"><code>scripts/custom_hrtfs.txt</code></td><td><span class="badge badge-a">NEW FILE</span></td><td class="fcc"><span class="pa">new</span></td></tr>
-<tr><td class="fp"><code>scripts/hud_textures.txt</code></td><td><span class="badge badge-a">NEW FILE</span></td><td class="fcc"><span class="pa">new</span></td></tr>
-<tr><td class="fp"><code>scripts/instructor_lessons.txt</code></td><td><span class="badge badge-a">NEW FILE</span></td><td class="fcc"><span class="pa">new</span></td></tr>
-<tr><td class="fp"><code>scripts/instructor_textures.txt</code></td><td><span class="badge badge-a">NEW FILE</span></td><td class="fcc"><span class="pa">new</span></td></tr>
-<tr><td class="fp"><code>scripts/inventory_structure.txt</code></td><td><span class="badge badge-a">NEW FILE</span></td><td class="fcc"><span class="pa">new</span></td></tr>
-<tr><td class="fp"><code>scripts/mod_lessons.txt</code></td><td><span class="badge badge-a">NEW FILE</span></td><td class="fcc"><span class="pa">new</span></td></tr>
-<tr><td class="fp"><code>scripts/mod_textures.txt</code></td><td><span class="badge badge-a">NEW FILE</span></td><td class="fcc"><span class="pa">new</span></td></tr>
-<tr><td class="fp"><code>scripts/propdata.txt</code></td><td><span class="badge badge-a">NEW FILE</span></td><td class="fcc"><span class="pa">new</span></td></tr>
-<tr><td class="fp"><code>scripts/replay_compatability_settings.txt</code></td><td><span class="badge badge-a">NEW FILE</span></td><td class="fcc"><span class="pa">new</span></td></tr>
-<tr><td class="fp"><code>scripts/soundmixers.txt</code></td><td><span class="badge badge-a">NEW FILE</span></td><td class="fcc"><span class="pa">new</span></td></tr>
-<tr><td class="fp"><code>scripts/soundscapes_manifest.txt</code></td><td><span class="badge badge-a">NEW FILE</span></td><td class="fcc"><span class="pa">new</span></td></tr>
-<tr><td class="fp"><code>scripts/surfaceproperties_footsteps.txt</code></td><td><span class="badge badge-a">NEW FILE</span></td><td class="fcc"><span class="pa">new</span></td></tr>
-<tr><td class="fp"><code>scripts/surfaceproperties_game.txt</code></td><td><span class="badge badge-a">NEW FILE</span></td><td class="fcc"><span class="pa">new</span></td></tr>
-<tr><td class="fp"><code>scripts/surfaceproperties_impact_effects.txt</code></td><td><span class="badge badge-a">NEW FILE</span></td><td class="fcc"><span class="pa">new</span></td></tr>
-<tr><td class="fp"><code>scripts/surfaceproperties_steamaudio.txt</code></td><td><span class="badge badge-a">NEW FILE</span></td><td class="fcc"><span class="pa">new</span></td></tr>
-<tr><td class="fp"><code>scripts/workshop_cvar_whitelist.txt</code></td><td><span class="badge badge-a">NEW FILE</span></td><td class="fcc"><span class="pa">new</span></td></tr>
-<tr><td class="fp"><code>source1import_blacklist.txt</code></td><td><span class="badge badge-a">NEW FILE</span></td><td class="fcc"><span class="pa">new</span></td></tr>
-<tr><td class="fp"><code>source1import_materialsettings.txt</code></td><td><span class="badge badge-a">NEW FILE</span></td><td class="fcc"><span class="pa">new</span></td></tr>
-<tr><td class="fp"><code>source1import_settings.txt</code></td><td><span class="badge badge-a">NEW FILE</span></td><td class="fcc"><span class="pa">new</span></td></tr>
-<tr><td class="fp"><code>toolscenevismodes.txt</code></td><td><span class="badge badge-a">NEW FILE</span></td><td class="fcc"><span class="pa">new</span></td></tr>
+<tr><td class="fp"><a href="#fdiff-0">resource/csgo_brazilian.txt</a></td><td><span class="badge badge-m">LOCALIZATION</span></td><td class="fcc"><span class="pa">+1</span><span class="pr">-0</span></td></tr>
+<tr><td class="fp"><a href="#fdiff-1">resource/csgo_bulgarian.txt</a></td><td><span class="badge badge-m">LOCALIZATION</span></td><td class="fcc"><span class="pa">+0</span><span class="pr">-0</span></td></tr>
+<tr><td class="fp"><a href="#fdiff-2">resource/csgo_czech.txt</a></td><td><span class="badge badge-m">LOCALIZATION</span></td><td class="fcc"><span class="pa">+1</span><span class="pr">-0</span></td></tr>
+<tr><td class="fp"><a href="#fdiff-3">resource/csgo_danish.txt</a></td><td><span class="badge badge-m">LOCALIZATION</span></td><td class="fcc"><span class="pa">+0</span><span class="pr">-0</span></td></tr>
+<tr><td class="fp"><a href="#fdiff-4">resource/csgo_dutch.txt</a></td><td><span class="badge badge-m">LOCALIZATION</span></td><td class="fcc"><span class="pa">+1</span><span class="pr">-0</span></td></tr>
+<tr><td class="fp"><a href="#fdiff-5">resource/csgo_english.txt</a></td><td><span class="badge badge-m">LOCALIZATION</span></td><td class="fcc"><span class="pa">+46</span><span class="pr">-3</span></td></tr>
+<tr><td class="fp"><a href="#fdiff-6">resource/csgo_finnish.txt</a></td><td><span class="badge badge-m">LOCALIZATION</span></td><td class="fcc"><span class="pa">+4</span><span class="pr">-4</span></td></tr>
+<tr><td class="fp"><a href="#fdiff-7">resource/csgo_french.txt</a></td><td><span class="badge badge-m">LOCALIZATION</span></td><td class="fcc"><span class="pa">+1</span><span class="pr">-0</span></td></tr>
+<tr><td class="fp"><a href="#fdiff-8">resource/csgo_german.txt</a></td><td><span class="badge badge-m">LOCALIZATION</span></td><td class="fcc"><span class="pa">+2</span><span class="pr">-1</span></td></tr>
+<tr><td class="fp"><a href="#fdiff-9">resource/csgo_greek.txt</a></td><td><span class="badge badge-m">LOCALIZATION</span></td><td class="fcc"><span class="pa">+4</span><span class="pr">-0</span></td></tr>
+<tr><td class="fp"><a href="#fdiff-10">resource/csgo_hungarian.txt</a></td><td><span class="badge badge-m">LOCALIZATION</span></td><td class="fcc"><span class="pa">+1</span><span class="pr">-0</span></td></tr>
+<tr><td class="fp"><a href="#fdiff-11">resource/csgo_indonesian.txt</a></td><td><span class="badge badge-m">LOCALIZATION</span></td><td class="fcc"><span class="pa">+0</span><span class="pr">-0</span></td></tr>
+<tr><td class="fp"><a href="#fdiff-12">resource/csgo_italian.txt</a></td><td><span class="badge badge-m">LOCALIZATION</span></td><td class="fcc"><span class="pa">+1</span><span class="pr">-0</span></td></tr>
+<tr><td class="fp"><a href="#fdiff-13">resource/csgo_japanese.txt</a></td><td><span class="badge badge-m">LOCALIZATION</span></td><td class="fcc"><span class="pa">+1</span><span class="pr">-0</span></td></tr>
+<tr><td class="fp"><a href="#fdiff-14">resource/csgo_koreana.txt</a></td><td><span class="badge badge-m">LOCALIZATION</span></td><td class="fcc"><span class="pa">+0</span><span class="pr">-0</span></td></tr>
+<tr><td class="fp"><a href="#fdiff-15">resource/csgo_latam.txt</a></td><td><span class="badge badge-m">LOCALIZATION</span></td><td class="fcc"><span class="pa">+0</span><span class="pr">-0</span></td></tr>
+<tr><td class="fp"><a href="#fdiff-16">resource/csgo_norwegian.txt</a></td><td><span class="badge badge-m">LOCALIZATION</span></td><td class="fcc"><span class="pa">+2</span><span class="pr">-1</span></td></tr>
+<tr><td class="fp"><a href="#fdiff-17">resource/csgo_polish.txt</a></td><td><span class="badge badge-m">LOCALIZATION</span></td><td class="fcc"><span class="pa">+0</span><span class="pr">-0</span></td></tr>
+<tr><td class="fp"><a href="#fdiff-18">resource/csgo_portuguese.txt</a></td><td><span class="badge badge-m">LOCALIZATION</span></td><td class="fcc"><span class="pa">+1</span><span class="pr">-0</span></td></tr>
+<tr><td class="fp"><a href="#fdiff-19">resource/csgo_romanian.txt</a></td><td><span class="badge badge-m">LOCALIZATION</span></td><td class="fcc"><span class="pa">+0</span><span class="pr">-0</span></td></tr>
+<tr><td class="fp"><a href="#fdiff-20">resource/csgo_russian.txt</a></td><td><span class="badge badge-m">LOCALIZATION</span></td><td class="fcc"><span class="pa">+3</span><span class="pr">-4</span></td></tr>
+<tr><td class="fp"><a href="#fdiff-21">resource/csgo_schinese.txt</a></td><td><span class="badge badge-m">LOCALIZATION</span></td><td class="fcc"><span class="pa">+1</span><span class="pr">-0</span></td></tr>
+<tr><td class="fp"><a href="#fdiff-22">resource/csgo_spanish.txt</a></td><td><span class="badge badge-m">LOCALIZATION</span></td><td class="fcc"><span class="pa">+0</span><span class="pr">-0</span></td></tr>
+<tr><td class="fp"><a href="#fdiff-23">resource/csgo_swedish.txt</a></td><td><span class="badge badge-m">LOCALIZATION</span></td><td class="fcc"><span class="pa">+0</span><span class="pr">-0</span></td></tr>
+<tr><td class="fp"><a href="#fdiff-24">resource/csgo_tchinese.txt</a></td><td><span class="badge badge-m">LOCALIZATION</span></td><td class="fcc"><span class="pa">+0</span><span class="pr">-0</span></td></tr>
+<tr><td class="fp"><a href="#fdiff-25">resource/csgo_thai.txt</a></td><td><span class="badge badge-m">LOCALIZATION</span></td><td class="fcc"><span class="pa">+0</span><span class="pr">-0</span></td></tr>
+<tr><td class="fp"><a href="#fdiff-26">resource/csgo_turkish.txt</a></td><td><span class="badge badge-m">LOCALIZATION</span></td><td class="fcc"><span class="pa">+0</span><span class="pr">-0</span></td></tr>
+<tr><td class="fp"><a href="#fdiff-27">resource/csgo_ukrainian.txt</a></td><td><span class="badge badge-m">LOCALIZATION</span></td><td class="fcc"><span class="pa">+0</span><span class="pr">-0</span></td></tr>
+<tr><td class="fp"><a href="#fdiff-28">resource/csgo_vietnamese.txt</a></td><td><span class="badge badge-m">LOCALIZATION</span></td><td class="fcc"><span class="pa">+1</span><span class="pr">-0</span></td></tr>
 </tbody></table>
+<div class="diff-file" id="fdiff-0">
+<div class="diff-file-hdr"><span class="diff-file-path">resource/csgo_brazilian.txt</span><span class="diff-file-meta"><span class="badge badge-a">+1</span><span class="badge badge-r">-0</span><a class="diff-top-link" href="#file-diff">&#8593; index</a></span></div>
+<table class="diff-tbl"><tbody>
+<tr class="diff-hunk-hdr"><td colspan="4">@@ -38328,0 +38328,1 @@</td></tr>
+<tr class="diff-add"><td class="ln"></td><td class="ln">38328</td><td class="sg">+</td><td class="lc">&quot;popup_delete_tooltip&quot; &quot;Segure para excluir este item. A exclus&#227;o &#233; permanente.&quot;</td></tr>
+</tbody></table>
+</div>
+<div class="diff-file" id="fdiff-1">
+<div class="diff-file-hdr"><span class="diff-file-path">resource/csgo_bulgarian.txt</span><span class="diff-file-meta"><span class="badge badge-a">+0</span><span class="badge badge-r">-0</span><a class="diff-top-link" href="#file-diff">&#8593; index</a></span></div>
+<table class="diff-tbl"><tbody>
+</tbody></table>
+</div>
+<div class="diff-file" id="fdiff-2">
+<div class="diff-file-hdr"><span class="diff-file-path">resource/csgo_czech.txt</span><span class="diff-file-meta"><span class="badge badge-a">+1</span><span class="badge badge-r">-0</span><a class="diff-top-link" href="#file-diff">&#8593; index</a></span></div>
+<table class="diff-tbl"><tbody>
+<tr class="diff-hunk-hdr"><td colspan="4">@@ -38770,0 +38770,1 @@</td></tr>
+<tr class="diff-add"><td class="ln"></td><td class="ln">38770</td><td class="sg">+</td><td class="lc">&quot;popup_delete_tooltip&quot; &quot;Podržen&#237;m tohoto tlač&#237;tka odstran&#237;š tento předmět. Tento krok nelze vz&#237;t zpět.&quot;</td></tr>
+</tbody></table>
+</div>
+<div class="diff-file" id="fdiff-3">
+<div class="diff-file-hdr"><span class="diff-file-path">resource/csgo_danish.txt</span><span class="diff-file-meta"><span class="badge badge-a">+0</span><span class="badge badge-r">-0</span><a class="diff-top-link" href="#file-diff">&#8593; index</a></span></div>
+<table class="diff-tbl"><tbody>
+</tbody></table>
+</div>
+<div class="diff-file" id="fdiff-4">
+<div class="diff-file-hdr"><span class="diff-file-path">resource/csgo_dutch.txt</span><span class="diff-file-meta"><span class="badge badge-a">+1</span><span class="badge badge-r">-0</span><a class="diff-top-link" href="#file-diff">&#8593; index</a></span></div>
+<table class="diff-tbl"><tbody>
+<tr class="diff-hunk-hdr"><td colspan="4">@@ -38761,0 +38761,1 @@</td></tr>
+<tr class="diff-add"><td class="ln"></td><td class="ln">38761</td><td class="sg">+</td><td class="lc">&quot;popup_delete_tooltip&quot; &quot;Blijf indrukken om dit voorwerp te verwijderen. Verwijderde voorwerpen kun je niet meer terugkrijgen.&quot;</td></tr>
+</tbody></table>
+</div>
+<div class="diff-file" id="fdiff-5">
+<div class="diff-file-hdr"><span class="diff-file-path">resource/csgo_english.txt</span><span class="diff-file-meta"><span class="badge badge-a">+46</span><span class="badge badge-r">-3</span><a class="diff-top-link" href="#file-diff">&#8593; index</a></span></div>
+<table class="diff-tbl"><tbody>
+<tr class="diff-hunk-hdr"><td colspan="4">@@ -2140,0 +2140,1 @@</td></tr>
+<tr class="diff-add"><td class="ln"></td><td class="ln">2140</td><td class="sg">+</td><td class="lc">&quot;ItemHistory_Action_GSCreate&quot; &quot;Created&quot;</td></tr>
+<tr class="diff-hunk-hdr"><td colspan="4">@@ -2202,0 +2203,3 @@</td></tr>
+<tr class="diff-add"><td class="ln"></td><td class="ln">2203</td><td class="sg">+</td><td class="lc">&quot;ItemHistory_Action_Market_Sealed&quot; &quot;Created listing on the Steam Community Market&quot;</td></tr>
+<tr class="diff-add"><td class="ln"></td><td class="ln">2204</td><td class="sg">+</td><td class="lc">&quot;ItemHistory_Action_Market_Unsealed&quot; &quot;Removed listing from the Community Market&quot;</td></tr>
+<tr class="diff-add"><td class="ln"></td><td class="ln">2205</td><td class="sg">+</td><td class="lc">&quot;ItemHistory_Action_Market_SoldSealed&quot; &quot;Sold on the Steam Community Market&quot;</td></tr>
+<tr class="diff-hunk-hdr"><td colspan="4">@@ -2335,0 +2339,1 @@</td></tr>
+<tr class="diff-add"><td class="ln"></td><td class="ln">2339</td><td class="sg">+</td><td class="lc">&quot;Attrib_TradeProtectedEscrowMarket&quot; &quot;⇆ This item is listed on the Steam Community Market and cannot be consumed or modified while listed.&quot;</td></tr>
+<tr class="diff-hunk-hdr"><td colspan="4">@@ -32617,0 +32622,1 @@</td></tr>
+<tr class="diff-add"><td class="ln"></td><td class="ln">32622</td><td class="sg">+</td><td class="lc">&quot;SFUI_InvContextMenu_marketlisting&quot; &quot;View Market Listing&quot;</td></tr>
+<tr class="diff-hunk-hdr"><td colspan="4">@@ -35500,0 +35506,1 @@</td></tr>
+<tr class="diff-add"><td class="ln"></td><td class="ln">35506</td><td class="sg">+</td><td class="lc">&quot;SFUI_Settings_Volatile_Limit_Unlimited&quot; &quot;Unlimited&quot;</td></tr>
+<tr class="diff-hunk-hdr"><td colspan="4">@@ -39814,0 +39821,1 @@</td></tr>
+<tr class="diff-add"><td class="ln"></td><td class="ln">39821</td><td class="sg">+</td><td class="lc">&quot;inv_context_marketlisting&quot; &quot;View Market Listing&quot;</td></tr>
+<tr class="diff-hunk-hdr"><td colspan="4">@@ -39865,0 +39873,1 @@</td></tr>
+<tr class="diff-add"><td class="ln"></td><td class="ln">39873</td><td class="sg">+</td><td class="lc">&quot;inv_session_prop_marketlisting&quot; &quot;&lt;img src=&#39;file://{images}/icons/ui/coupon.svg&#39; class=&#39;item-tile__onmarket&#39;/&gt; On Market&quot;</td></tr>
+<tr class="diff-hunk-hdr"><td colspan="4">@@ -42164,2 +42173,2 @@</td></tr>
+<tr class="diff-del"><td class="ln">42164</td><td class="ln"></td><td class="sg">-</td><td class="lc">&quot;user_btn_purchase_title&quot; &quot;&lt;b&gt;{s:offer-count} Offer&lt;/b&gt; - Suggested Responses&quot;</td></tr>
+<tr class="diff-del"><td class="ln">42165</td><td class="ln"></td><td class="sg">-</td><td class="lc">&quot;user_btn_purchase_final_title&quot; &quot;&lt;b&gt;Final Offer&lt;/b&gt; - Suggested Responses&quot;</td></tr>
+<tr class="diff-add"><td class="ln"></td><td class="ln">42173</td><td class="sg">+</td><td class="lc">&quot;user_btn_purchase_title&quot; &quot;{s:offer-count} - Offer&quot;</td></tr>
+<tr class="diff-add"><td class="ln"></td><td class="ln">42174</td><td class="sg">+</td><td class="lc">&quot;user_btn_purchase_final_title&quot; &quot;&lt;b&gt;Final Offer&lt;/b&gt;&quot;</td></tr>
+<tr class="diff-hunk-hdr"><td colspan="4">@@ -42186,0 +42195,11 @@</td></tr>
+<tr class="diff-add"><td class="ln"></td><td class="ln">42195</td><td class="sg">+</td><td class="lc">&quot;user_message_limit_0&quot; &quot;I can do up to &lt;b&gt;{s:limit-setting}&lt;/b&gt;.&quot;</td></tr>
+<tr class="diff-add"><td class="ln"></td><td class="ln">42196</td><td class="sg">+</td><td class="lc">&quot;user_message_limit_1&quot; &quot;How about &lt;b&gt;{s:limit-setting}&lt;/b&gt; as the ceiling.&quot;</td></tr>
+<tr class="diff-add"><td class="ln"></td><td class="ln">42197</td><td class="sg">+</td><td class="lc">&quot;user_message_limit_2&quot; &quot;Up to &lt;b&gt;{s:limit-setting}&lt;/b&gt; works for me.&quot;</td></tr>
+<tr class="diff-add"><td class="ln"></td><td class="ln">42198</td><td class="sg">+</td><td class="lc">&quot;user_message_limit_3&quot; &quot;&lt;b&gt;{s:limit-setting}&lt;/b&gt; cap is good.&quot;</td></tr>
+<tr class="diff-add"><td class="ln"></td><td class="ln">42199</td><td class="sg">+</td><td class="lc">&quot;user_message_limit_unlimited_0&quot; &quot;&lt;b&gt;No max&lt;/b&gt;, I want to see it all.&quot;</td></tr>
+<tr class="diff-add"><td class="ln"></td><td class="ln">42200</td><td class="sg">+</td><td class="lc">&quot;user_message_limit_unlimited_1&quot; &quot;&lt;b&gt;Blank check&lt;/b&gt;. Don&#39;t worry about the wallet.&quot;</td></tr>
+<tr class="diff-add"><td class="ln"></td><td class="ln">42201</td><td class="sg">+</td><td class="lc">&quot;user_message_limit_unlimited_2&quot; &quot;I&#39;m here to buy. &lt;b&gt;Show me everything&lt;/b&gt;.&quot;</td></tr>
+<tr class="diff-add"><td class="ln"></td><td class="ln">42202</td><td class="sg">+</td><td class="lc">&quot;user_message_limit_unlimited_3&quot; &quot;If it shoots, I&#39;m interested.&lt;b&gt; No limits&lt;/b&gt;.&quot;</td></tr>
+<tr class="diff-add"><td class="ln"></td><td class="ln">42203</td><td class="sg">+</td><td class="lc">&quot;user_message_limit_unlimited_4&quot; &quot;Sky&#39;s the limit&quot;</td></tr>
+<tr class="diff-add"><td class="ln"></td><td class="ln">42204</td><td class="sg">+</td><td class="lc">&quot;offer_limit_setting&quot; &quot;Offer limit: {s:limit}&quot;</td></tr>
+<tr class="diff-add"><td class="ln"></td><td class="ln">42205</td><td class="sg">+</td><td class="lc">&quot;offer_limit_setting_interface&quot; &quot;Offer limit: {s:limit} &lt;img src=&#39;file://{images}/icons/ui/expand.svg&#39; class=&#39;expand-icon&#39;/&gt;&quot;</td></tr>
+<tr class="diff-hunk-hdr"><td colspan="4">@@ -42201,0 +42221,1 @@</td></tr>
+<tr class="diff-add"><td class="ln"></td><td class="ln">42221</td><td class="sg">+</td><td class="lc">&quot;laptop_max_offer_tooltip&quot; &quot;Set your Max Offer Limit. You will only receive offers under that limit. You can change it at any time.&quot;</td></tr>
+<tr class="diff-hunk-hdr"><td colspan="4">@@ -42202,0 +42223,1 @@</td></tr>
+<tr class="diff-add"><td class="ln"></td><td class="ln">42223</td><td class="sg">+</td><td class="lc">&quot;terminal_offer_limit_tooltip&quot; &quot;Update your max offer limit. The Arms Dealer will only show you offers up to that limit.&quot;</td></tr>
+<tr class="diff-hunk-hdr"><td colspan="4">@@ -42212,0 +42234,1 @@</td></tr>
+<tr class="diff-add"><td class="ln"></td><td class="ln">42234</td><td class="sg">+</td><td class="lc">&quot;popup_offer_limit_desc&quot; &quot;Update your max offer limit for all future offers&quot;</td></tr>
+<tr class="diff-hunk-hdr"><td colspan="4">@@ -42217,0 +42240,3 @@</td></tr>
+<tr class="diff-add"><td class="ln"></td><td class="ln">42240</td><td class="sg">+</td><td class="lc">&quot;dealer_message_set_offer_limit_0&quot; &quot;First things First. How much are you authorized to drop?&quot;</td></tr>
+<tr class="diff-add"><td class="ln"></td><td class="ln">42241</td><td class="sg">+</td><td class="lc">&quot;dealer_message_set_offer_limit_1&quot; &quot;Lets get this out of the way.&lt;!--.25--&gt; What’s your limit?&quot;</td></tr>
+<tr class="diff-add"><td class="ln"></td><td class="ln">42242</td><td class="sg">+</td><td class="lc">&quot;dealer_message_set_offer_limit_2&quot; &quot;Before we get started...&lt;!--.25--&gt; What’s the cap? How much are you authorized to drop?&quot;</td></tr>
+<tr class="diff-hunk-hdr"><td colspan="4">@@ -42224,1 +42250,1 @@</td></tr>
+<tr class="diff-del"><td class="ln">42224</td><td class="ln"></td><td class="sg">-</td><td class="lc">&quot;dealer_message_start_7&quot; &quot;Good. It&#39;s you.&lt;!--.25--&gt;My other clients always want to know how I got what I&#39;m selling. I hate that.&lt;!--.25--&gt;All you ever want to know is if it&#39;s the best stuff on the market.&lt;!--.25--&gt;Guess what: It is.&quot;</td></tr>
+<tr class="diff-add"><td class="ln"></td><td class="ln">42250</td><td class="sg">+</td><td class="lc">&quot;dealer_message_start_7&quot; &quot;My other clients always want to know how I got what I&#39;m selling. I hate that.&lt;!--.25--&gt;All you ever want to know is if it&#39;s the best stuff on the market.&lt;!--.25--&gt;Guess what: It is.&quot;</td></tr>
+<tr class="diff-hunk-hdr"><td colspan="4">@@ -42402,0 +42428,16 @@</td></tr>
+<tr class="diff-add"><td class="ln"></td><td class="ln">42428</td><td class="sg">+</td><td class="lc">&quot;dealer_message_limit_first_time_0&quot; &quot;Good to know, I&#39;ll only show you offers up to {s:limit}.&lt;!--.25--&gt; Let&#39;s see what you need.&quot;</td></tr>
+<tr class="diff-add"><td class="ln"></td><td class="ln">42429</td><td class="sg">+</td><td class="lc">&quot;dealer_message_limit_first_time_2&quot; &quot;Only offer under {s:limit}, I&#39;ll keep that in mind.&lt;!--.25--&gt; Clock&#39;s ticking. Let&#39;s start.&quot;</td></tr>
+<tr class="diff-add"><td class="ln"></td><td class="ln">42430</td><td class="sg">+</td><td class="lc">&quot;dealer_message_limit_first_time_3&quot; &quot;Noted. Updated.&lt;!--.25--&gt; Here we go.&quot;</td></tr>
+<tr class="diff-add"><td class="ln"></td><td class="ln">42431</td><td class="sg">+</td><td class="lc">&quot;dealer_message_limit_first_time_unlimited_0&quot; &quot;No max, Excellent. I&#39;ll open the current catalog going forward.&lt;!--.25--&gt; Clock&#39;s ticking. Let&#39;s start.&quot;</td></tr>
+<tr class="diff-add"><td class="ln"></td><td class="ln">42432</td><td class="sg">+</td><td class="lc">&quot;dealer_message_limit_first_time_unlimited_1&quot; &quot;Roger. Uncapped. Now we’re getting serious.&lt;!--.25--&gt; Let&#39;s see what you need.&quot;</td></tr>
+<tr class="diff-add"><td class="ln"></td><td class="ln">42433</td><td class="sg">+</td><td class="lc">&quot;dealer_message_limit_0&quot; &quot;Good to know, I&#39;ll only show you offers up to {s:limit}.&quot;</td></tr>
+<tr class="diff-add"><td class="ln"></td><td class="ln">42434</td><td class="sg">+</td><td class="lc">&quot;dealer_message_limit_1&quot; &quot;Only offers under {s:limit}, I&#39;ll keep that in mind.&quot;</td></tr>
+<tr class="diff-add"><td class="ln"></td><td class="ln">42435</td><td class="sg">+</td><td class="lc">&quot;dealer_message_limit_2&quot; &quot;Adjusting the parameters. Only offers up to {s:limit}.&quot;</td></tr>
+<tr class="diff-add"><td class="ln"></td><td class="ln">42436</td><td class="sg">+</td><td class="lc">&quot;dealer_message_limit_3&quot; &quot;Offers up to {s:limit}. Noted. Updated.&quot;</td></tr>
+<tr class="diff-add"><td class="ln"></td><td class="ln">42437</td><td class="sg">+</td><td class="lc">&quot;dealer_message_limit_4&quot; &quot;I’ll only pull what fits the tag, up to {s:limit}&quot;</td></tr>
+<tr class="diff-add"><td class="ln"></td><td class="ln">42438</td><td class="sg">+</td><td class="lc">&quot;dealer_message_limit_5&quot; &quot;{s:limit}, got the new cap&quot;</td></tr>
+<tr class="diff-add"><td class="ln"></td><td class="ln">42439</td><td class="sg">+</td><td class="lc">&quot;dealer_message_limit_6&quot; &quot;Understood. Resetting the filter for offers up to {s:limit}.&quot;</td></tr>
+<tr class="diff-add"><td class="ln"></td><td class="ln">42440</td><td class="sg">+</td><td class="lc">&quot;dealer_message_limit_unlimited_0&quot; &quot;No max, Excellent. I&#39;ll open the current catalog going forward.&quot;</td></tr>
+<tr class="diff-add"><td class="ln"></td><td class="ln">42441</td><td class="sg">+</td><td class="lc">&quot;dealer_message_limit_unlimited_1&quot; &quot;Got it, uncapped. If any thing exotic comes up I won&#39;t hold back.&quot;</td></tr>
+<tr class="diff-add"><td class="ln"></td><td class="ln">42442</td><td class="sg">+</td><td class="lc">&quot;dealer_message_limit_unlimited_2&quot; &quot;Music to my ears. If something that fits the bill shows up I won&#39;t hesitate to show you&quot;</td></tr>
+<tr class="diff-add"><td class="ln"></td><td class="ln">42443</td><td class="sg">+</td><td class="lc">&quot;dealer_message_limit_unlimited_3&quot; &quot;Roger. Uncapped. Now we’re getting serious.&quot;</td></tr>
+<tr class="diff-hunk-hdr"><td colspan="4">@@ -42405,0 +42447,1 @@</td></tr>
+<tr class="diff-add"><td class="ln"></td><td class="ln">42447</td><td class="sg">+</td><td class="lc">&quot;system_user_updated_offer_limit_0&quot; &quot;Max Offer Limit updated to {s:limit}. You can update the setting at any time.&quot;</td></tr>
+</tbody></table>
+</div>
+<div class="diff-file" id="fdiff-6">
+<div class="diff-file-hdr"><span class="diff-file-path">resource/csgo_finnish.txt</span><span class="diff-file-meta"><span class="badge badge-a">+4</span><span class="badge badge-r">-4</span><a class="diff-top-link" href="#file-diff">&#8593; index</a></span></div>
+<table class="diff-tbl"><tbody>
+<tr class="diff-hunk-hdr"><td colspan="4">@@ -30640,1 +30640,1 @@</td></tr>
+<tr class="diff-del"><td class="ln">30640</td><td class="ln"></td><td class="sg">-</td><td class="lc">&quot;SFUI_GameModeCompetitiveDescSPList&quot; &quot;&#183; Oma tuli P&#196;&#196;LL&#196;\n&#183; Tiimikavereiden l&#228;pi VOI kulkea\n&#183; Suojavarusteet ja pomminpurkupakkaus ostettavissa\n&#183; Paras 30 er&#228;st&#228; voittaa&quot;</td></tr>
+<tr class="diff-add"><td class="ln"></td><td class="ln">30640</td><td class="sg">+</td><td class="lc">&quot;SFUI_GameModeCompetitiveDescSPList&quot; &quot;&#183; Oma tuli P&#196;&#196;LL&#196;\n&#183; Tiimikavereiden l&#228;pi EI VOI kulkea\n&#183; Suojavarusteet ja pomminpurkupakkaus ostettavissa\n&#183; Paras 30 er&#228;st&#228; voittaa&quot;</td></tr>
+<tr class="diff-hunk-hdr"><td colspan="4">@@ -37341,1 +37341,1 @@</td></tr>
+<tr class="diff-del"><td class="ln">37341</td><td class="ln"></td><td class="sg">-</td><td class="lc">&quot;SFUI_Rules_Bomb_Loading_Competetive&quot; &quot;Pommiteht&#228;v&#228;\n\nOsta uusia aseita ansaituilla\nrahoilla erien alussa.\n\nAsetukset:\n&#183; Oma tuli P&#196;&#196;LL&#196;\n&#183; Tiimikavereiden l&#228;pi VOI kulkea\n&#183; Suojavarusteet ja pomminpurkupakkaus\nostettavissa&quot;</td></tr>
+<tr class="diff-add"><td class="ln"></td><td class="ln">37341</td><td class="sg">+</td><td class="lc">&quot;SFUI_Rules_Bomb_Loading_Competetive&quot; &quot;Pommiteht&#228;v&#228;\n\nOsta uusia aseita ansaituilla\nrahoilla erien alussa.\n\nAsetukset:\n&#183; Oma tuli P&#196;&#196;LL&#196;\n&#183; Tiimikavereiden l&#228;pi EI VOI kulkea\n&#183; Suojavarusteet ja pomminpurkupakkaus\nostettavissa&quot;</td></tr>
+<tr class="diff-hunk-hdr"><td colspan="4">@@ -37343,1 +37343,1 @@</td></tr>
+<tr class="diff-del"><td class="ln">37343</td><td class="ln"></td><td class="sg">-</td><td class="lc">&quot;SFUI_Rules_ClassicComp_Unknown&quot; &quot;Tappoteht&#228;v&#228;\n\nOsta uusia aseita ansaituilla\nrahoilla erien alussa.\n\nAsetukset:\n&#183; Oma tuli P&#196;&#196;LL&#196;\n&#183; Tiimikavereiden l&#228;pi VOI kulkea\n&#183; Suojavarusteet ja pomminpurkupakkaus\n ostettavissa&quot;</td></tr>
+<tr class="diff-add"><td class="ln"></td><td class="ln">37343</td><td class="sg">+</td><td class="lc">&quot;SFUI_Rules_ClassicComp_Unknown&quot; &quot;Tappoteht&#228;v&#228;\n\nOsta uusia aseita ansaituilla\nrahoilla erien alussa.\n\nAsetukset:\n&#183; Oma tuli P&#196;&#196;LL&#196;\n&#183; Tiimikavereiden l&#228;pi EI VOI kulkea\n&#183; Suojavarusteet ja pomminpurkupakkaus\n ostettavissa&quot;</td></tr>
+<tr class="diff-hunk-hdr"><td colspan="4">@@ -37347,1 +37347,1 @@</td></tr>
+<tr class="diff-del"><td class="ln">37347</td><td class="ln"></td><td class="sg">-</td><td class="lc">&quot;SFUI_Rules_Hostage_Loading_Competetive&quot; &quot;Panttivankiteht&#228;v&#228;\n\nOsta uusia aseita ansaituilla\nrahoilla erien alussa.\n\nAsetukset:\n&#183; Oma tuli P&#196;&#196;LL&#196;\n&#183; Tiimikavereiden l&#228;pi VOI kulkea\n&#183; Suojavarusteet ja pomminpurkupakkaus\n ostettavissa&quot;</td></tr>
+<tr class="diff-add"><td class="ln"></td><td class="ln">37347</td><td class="sg">+</td><td class="lc">&quot;SFUI_Rules_Hostage_Loading_Competetive&quot; &quot;Panttivankiteht&#228;v&#228;\n\nOsta uusia aseita ansaituilla\nrahoilla erien alussa.\n\nAsetukset:\n&#183; Oma tuli P&#196;&#196;LL&#196;\n&#183; Tiimikavereiden l&#228;pi EI VOI kulkea\n&#183; Suojavarusteet ja pomminpurkupakkaus\n ostettavissa&quot;</td></tr>
+</tbody></table>
+</div>
+<div class="diff-file" id="fdiff-7">
+<div class="diff-file-hdr"><span class="diff-file-path">resource/csgo_french.txt</span><span class="diff-file-meta"><span class="badge badge-a">+1</span><span class="badge badge-r">-0</span><a class="diff-top-link" href="#file-diff">&#8593; index</a></span></div>
+<table class="diff-tbl"><tbody>
+<tr class="diff-hunk-hdr"><td colspan="4">@@ -38324,0 +38324,1 @@</td></tr>
+<tr class="diff-add"><td class="ln"></td><td class="ln">38324</td><td class="sg">+</td><td class="lc">&quot;popup_delete_tooltip&quot; &quot;Appuyez longuement pour supprimer cet item. Toute suppression d&#39;item est d&#233;finitive.&quot;</td></tr>
+</tbody></table>
+</div>
+<div class="diff-file" id="fdiff-8">
+<div class="diff-file-hdr"><span class="diff-file-path">resource/csgo_german.txt</span><span class="diff-file-meta"><span class="badge badge-a">+2</span><span class="badge badge-r">-1</span><a class="diff-top-link" href="#file-diff">&#8593; index</a></span></div>
+<table class="diff-tbl"><tbody>
+<tr class="diff-hunk-hdr"><td colspan="4">@@ -28001,1 +28001,1 @@</td></tr>
+<tr class="diff-del"><td class="ln">28001</td><td class="ln"></td><td class="sg">-</td><td class="lc">&quot;CSGO_Customplayer_ctm_gendarmerie_variantc&quot; &quot;Chef d&#39;Escadron Rouchard | Gendarmerie Nationale&quot;</td></tr>
+<tr class="diff-add"><td class="ln"></td><td class="ln">28001</td><td class="sg">+</td><td class="lc">&quot;CSGO_Customplayer_ctm_gendarmerie_variantc&quot; &quot;Chef d’Escadron Rouchard | Gendarmerie Nationale&quot;</td></tr>
+<tr class="diff-hunk-hdr"><td colspan="4">@@ -38323,0 +38323,1 @@</td></tr>
+<tr class="diff-add"><td class="ln"></td><td class="ln">38323</td><td class="sg">+</td><td class="lc">&quot;popup_delete_tooltip&quot; &quot;Gedr&#252;ckt halten, um diesen Gegenstand zu l&#246;schen. Das L&#246;schen eines Gegenstands kann nicht r&#252;ckg&#228;ngig gemacht werden.&quot;</td></tr>
+</tbody></table>
+</div>
+<div class="diff-file" id="fdiff-9">
+<div class="diff-file-hdr"><span class="diff-file-path">resource/csgo_greek.txt</span><span class="diff-file-meta"><span class="badge badge-a">+4</span><span class="badge badge-r">-0</span><a class="diff-top-link" href="#file-diff">&#8593; index</a></span></div>
+<table class="diff-tbl"><tbody>
+<tr class="diff-hunk-hdr"><td colspan="4">@@ -92,0 +92,2 @@</td></tr>
+<tr class="diff-add"><td class="ln"></td><td class="ln">92</td><td class="sg">+</td><td class="lc">&quot;GameUI_Confirm_Write_Setting_Title&quot; &quot;Αίτημα αλλαγής ρυθμίσεων&quot;</td></tr>
+<tr class="diff-add"><td class="ln"></td><td class="ln">93</td><td class="sg">+</td><td class="lc">&quot;GameUI_Confirm_Write_Setting_Text&quot; &quot;Αυτός ο χάρτης Εργαστηρίου &#171;{s:mapname}&#187; θα ήθελε να αλλάξει τις ρυθμίσεις σας. Αυτό μπορεί να περιλαμβάνει αλλαγές στο στόχαστρο, το ραντάρ, τον ήχο και άλλα. Θέλετε να επιτρέψετε αυτές τις αλλαγές;&quot;</td></tr>
+<tr class="diff-hunk-hdr"><td colspan="4">@@ -30543,0 +30545,1 @@</td></tr>
+<tr class="diff-add"><td class="ln"></td><td class="ln">30545</td><td class="sg">+</td><td class="lc">&quot;StoreCheckout_NotEnoughRoom_TooManyStorageUnits&quot; &quot;Κατέχετε ήδη πάρα πολλά Κιβώτια Αποθήκευσης.\n\nΔεν είναι δυνατή η αγορά περισσότερων Κιβωτίων Αποθήκευσης από το κατάστημα εντός παιχνιδιού μέχρι ο κάτοχος του λογαριασμού να επικοινωνήσει με την Υποστήριξη Steam.&quot;</td></tr>
+<tr class="diff-hunk-hdr"><td colspan="4">@@ -32680,0 +32683,1 @@</td></tr>
+<tr class="diff-add"><td class="ln"></td><td class="ln">32683</td><td class="sg">+</td><td class="lc">&quot;CSGO_Demo_Highlight&quot; &quot;Καλύτερες στιγμές&quot;</td></tr>
+</tbody></table>
+</div>
+<div class="diff-file" id="fdiff-10">
+<div class="diff-file-hdr"><span class="diff-file-path">resource/csgo_hungarian.txt</span><span class="diff-file-meta"><span class="badge badge-a">+1</span><span class="badge badge-r">-0</span><a class="diff-top-link" href="#file-diff">&#8593; index</a></span></div>
+<table class="diff-tbl"><tbody>
+<tr class="diff-hunk-hdr"><td colspan="4">@@ -38540,0 +38540,1 @@</td></tr>
+<tr class="diff-add"><td class="ln"></td><td class="ln">38540</td><td class="sg">+</td><td class="lc">&quot;popup_delete_tooltip&quot; &quot;Tartsd nyomva e t&#225;rgy t&#246;rl&#233;s&#233;hez. A t&#225;rgyt&#246;rl&#233;s nem vonhat&#243; vissza.&quot;</td></tr>
+</tbody></table>
+</div>
+<div class="diff-file" id="fdiff-11">
+<div class="diff-file-hdr"><span class="diff-file-path">resource/csgo_indonesian.txt</span><span class="diff-file-meta"><span class="badge badge-a">+0</span><span class="badge badge-r">-0</span><a class="diff-top-link" href="#file-diff">&#8593; index</a></span></div>
+<table class="diff-tbl"><tbody>
+</tbody></table>
+</div>
+<div class="diff-file" id="fdiff-12">
+<div class="diff-file-hdr"><span class="diff-file-path">resource/csgo_italian.txt</span><span class="diff-file-meta"><span class="badge badge-a">+1</span><span class="badge badge-r">-0</span><a class="diff-top-link" href="#file-diff">&#8593; index</a></span></div>
+<table class="diff-tbl"><tbody>
+<tr class="diff-hunk-hdr"><td colspan="4">@@ -38334,0 +38334,1 @@</td></tr>
+<tr class="diff-add"><td class="ln"></td><td class="ln">38334</td><td class="sg">+</td><td class="lc">&quot;popup_delete_tooltip&quot; &quot;Tieni premuto per eliminare questo oggetto. L&#39;eliminazione di un oggetto non pu&#242; essere annullata.&quot;</td></tr>
+</tbody></table>
+</div>
+<div class="diff-file" id="fdiff-13">
+<div class="diff-file-hdr"><span class="diff-file-path">resource/csgo_japanese.txt</span><span class="diff-file-meta"><span class="badge badge-a">+1</span><span class="badge badge-r">-0</span><a class="diff-top-link" href="#file-diff">&#8593; index</a></span></div>
+<table class="diff-tbl"><tbody>
+<tr class="diff-hunk-hdr"><td colspan="4">@@ -37763,0 +37763,1 @@</td></tr>
+<tr class="diff-add"><td class="ln"></td><td class="ln">37763</td><td class="sg">+</td><td class="lc">&quot;popup_delete_tooltip&quot; &quot;長押しするとアイテムを削除できます。アイテムを削除すると元には戻せません。&quot;</td></tr>
+</tbody></table>
+</div>
+<div class="diff-file" id="fdiff-14">
+<div class="diff-file-hdr"><span class="diff-file-path">resource/csgo_koreana.txt</span><span class="diff-file-meta"><span class="badge badge-a">+0</span><span class="badge badge-r">-0</span><a class="diff-top-link" href="#file-diff">&#8593; index</a></span></div>
+<table class="diff-tbl"><tbody>
+</tbody></table>
+</div>
+<div class="diff-file" id="fdiff-15">
+<div class="diff-file-hdr"><span class="diff-file-path">resource/csgo_latam.txt</span><span class="diff-file-meta"><span class="badge badge-a">+0</span><span class="badge badge-r">-0</span><a class="diff-top-link" href="#file-diff">&#8593; index</a></span></div>
+<table class="diff-tbl"><tbody>
+</tbody></table>
+</div>
+<div class="diff-file" id="fdiff-16">
+<div class="diff-file-hdr"><span class="diff-file-path">resource/csgo_norwegian.txt</span><span class="diff-file-meta"><span class="badge badge-a">+2</span><span class="badge badge-r">-1</span><a class="diff-top-link" href="#file-diff">&#8593; index</a></span></div>
+<table class="diff-tbl"><tbody>
+<tr class="diff-hunk-hdr"><td colspan="4">@@ -38974,1 +38974,2 @@</td></tr>
+<tr class="diff-del"><td class="ln">38974</td><td class="ln"></td><td class="sg">-</td><td class="lc">&quot;popup_delete_warning&quot; &quot;Hvis gjenstanden slettes kan ikke dette omgj&#248;res.&quot;</td></tr>
+<tr class="diff-add"><td class="ln"></td><td class="ln">38974</td><td class="sg">+</td><td class="lc">&quot;popup_delete_warning&quot; &quot;Sletting av gjenstander kan ikke omgj&#248;res.&quot;</td></tr>
+<tr class="diff-add"><td class="ln"></td><td class="ln">38975</td><td class="sg">+</td><td class="lc">&quot;popup_delete_tooltip&quot; &quot;Hold for &#229; slette denne gjenstanden. Sletting av gjenstander kan ikke omgj&#248;res.&quot;</td></tr>
+</tbody></table>
+</div>
+<div class="diff-file" id="fdiff-17">
+<div class="diff-file-hdr"><span class="diff-file-path">resource/csgo_polish.txt</span><span class="diff-file-meta"><span class="badge badge-a">+0</span><span class="badge badge-r">-0</span><a class="diff-top-link" href="#file-diff">&#8593; index</a></span></div>
+<table class="diff-tbl"><tbody>
+</tbody></table>
+</div>
+<div class="diff-file" id="fdiff-18">
+<div class="diff-file-hdr"><span class="diff-file-path">resource/csgo_portuguese.txt</span><span class="diff-file-meta"><span class="badge badge-a">+1</span><span class="badge badge-r">-0</span><a class="diff-top-link" href="#file-diff">&#8593; index</a></span></div>
+<table class="diff-tbl"><tbody>
+<tr class="diff-hunk-hdr"><td colspan="4">@@ -38402,0 +38402,1 @@</td></tr>
+<tr class="diff-add"><td class="ln"></td><td class="ln">38402</td><td class="sg">+</td><td class="lc">&quot;popup_delete_tooltip&quot; &quot;Mant&#233;m premido para eliminar este item. A elimina&#231;&#227;o de um item &#233; permanente.&quot;</td></tr>
+</tbody></table>
+</div>
+<div class="diff-file" id="fdiff-19">
+<div class="diff-file-hdr"><span class="diff-file-path">resource/csgo_romanian.txt</span><span class="diff-file-meta"><span class="badge badge-a">+0</span><span class="badge badge-r">-0</span><a class="diff-top-link" href="#file-diff">&#8593; index</a></span></div>
+<table class="diff-tbl"><tbody>
+</tbody></table>
+</div>
+<div class="diff-file" id="fdiff-20">
+<div class="diff-file-hdr"><span class="diff-file-path">resource/csgo_russian.txt</span><span class="diff-file-meta"><span class="badge badge-a">+3</span><span class="badge badge-r">-4</span><a class="diff-top-link" href="#file-diff">&#8593; index</a></span></div>
+<table class="diff-tbl"><tbody>
+<tr class="diff-hunk-hdr"><td colspan="4">@@ -1277,1 +1277,0 @@</td></tr>
+<tr class="diff-del"><td class="ln">1277</td><td class="ln"></td><td class="sg">-</td><td class="lc">&quot;Mid&quot; &quot;Mid &quot;</td></tr>
+<tr class="diff-hunk-hdr"><td colspan="4">@@ -30862,2 +30861,2 @@</td></tr>
+<tr class="diff-del"><td class="ln">30862</td><td class="ln"></td><td class="sg">-</td><td class="lc">&quot;SFUI_InvTooltip_Wear&quot; &quot;Износ:&quot;</td></tr>
+<tr class="diff-del"><td class="ln">30863</td><td class="ln"></td><td class="sg">-</td><td class="lc">&quot;SFUI_InvTooltip_WearTag&quot; &quot;Оформление&quot;</td></tr>
+<tr class="diff-add"><td class="ln"></td><td class="ln">30861</td><td class="sg">+</td><td class="lc">&quot;SFUI_InvTooltip_Wear&quot; &quot;Состояние:&quot;</td></tr>
+<tr class="diff-add"><td class="ln"></td><td class="ln">30862</td><td class="sg">+</td><td class="lc">&quot;SFUI_InvTooltip_WearTag&quot; &quot;Состояние&quot;</td></tr>
+<tr class="diff-hunk-hdr"><td colspan="4">@@ -38279,1 +38278,1 @@</td></tr>
+<tr class="diff-del"><td class="ln">38279</td><td class="ln"></td><td class="sg">-</td><td class="lc">&quot;inv_header_grade&quot; &quot;Износ:&quot;</td></tr>
+<tr class="diff-add"><td class="ln"></td><td class="ln">38278</td><td class="sg">+</td><td class="lc">&quot;inv_header_grade&quot; &quot;Состояние:&quot;</td></tr>
+</tbody></table>
+</div>
+<div class="diff-file" id="fdiff-21">
+<div class="diff-file-hdr"><span class="diff-file-path">resource/csgo_schinese.txt</span><span class="diff-file-meta"><span class="badge badge-a">+1</span><span class="badge badge-r">-0</span><a class="diff-top-link" href="#file-diff">&#8593; index</a></span></div>
+<table class="diff-tbl"><tbody>
+<tr class="diff-hunk-hdr"><td colspan="4">@@ -38347,0 +38347,1 @@</td></tr>
+<tr class="diff-add"><td class="ln"></td><td class="ln">38347</td><td class="sg">+</td><td class="lc">&quot;popup_delete_tooltip&quot; &quot;长按删除该物品，删除操作不可撤销。&quot;</td></tr>
+</tbody></table>
+</div>
+<div class="diff-file" id="fdiff-22">
+<div class="diff-file-hdr"><span class="diff-file-path">resource/csgo_spanish.txt</span><span class="diff-file-meta"><span class="badge badge-a">+0</span><span class="badge badge-r">-0</span><a class="diff-top-link" href="#file-diff">&#8593; index</a></span></div>
+<table class="diff-tbl"><tbody>
+</tbody></table>
+</div>
+<div class="diff-file" id="fdiff-23">
+<div class="diff-file-hdr"><span class="diff-file-path">resource/csgo_swedish.txt</span><span class="diff-file-meta"><span class="badge badge-a">+0</span><span class="badge badge-r">-0</span><a class="diff-top-link" href="#file-diff">&#8593; index</a></span></div>
+<table class="diff-tbl"><tbody>
+</tbody></table>
+</div>
+<div class="diff-file" id="fdiff-24">
+<div class="diff-file-hdr"><span class="diff-file-path">resource/csgo_tchinese.txt</span><span class="diff-file-meta"><span class="badge badge-a">+0</span><span class="badge badge-r">-0</span><a class="diff-top-link" href="#file-diff">&#8593; index</a></span></div>
+<table class="diff-tbl"><tbody>
+</tbody></table>
+</div>
+<div class="diff-file" id="fdiff-25">
+<div class="diff-file-hdr"><span class="diff-file-path">resource/csgo_thai.txt</span><span class="diff-file-meta"><span class="badge badge-a">+0</span><span class="badge badge-r">-0</span><a class="diff-top-link" href="#file-diff">&#8593; index</a></span></div>
+<table class="diff-tbl"><tbody>
+</tbody></table>
+</div>
+<div class="diff-file" id="fdiff-26">
+<div class="diff-file-hdr"><span class="diff-file-path">resource/csgo_turkish.txt</span><span class="diff-file-meta"><span class="badge badge-a">+0</span><span class="badge badge-r">-0</span><a class="diff-top-link" href="#file-diff">&#8593; index</a></span></div>
+<table class="diff-tbl"><tbody>
+</tbody></table>
+</div>
+<div class="diff-file" id="fdiff-27">
+<div class="diff-file-hdr"><span class="diff-file-path">resource/csgo_ukrainian.txt</span><span class="diff-file-meta"><span class="badge badge-a">+0</span><span class="badge badge-r">-0</span><a class="diff-top-link" href="#file-diff">&#8593; index</a></span></div>
+<table class="diff-tbl"><tbody>
+</tbody></table>
+</div>
+<div class="diff-file" id="fdiff-28">
+<div class="diff-file-hdr"><span class="diff-file-path">resource/csgo_vietnamese.txt</span><span class="diff-file-meta"><span class="badge badge-a">+1</span><span class="badge badge-r">-0</span><a class="diff-top-link" href="#file-diff">&#8593; index</a></span></div>
+<table class="diff-tbl"><tbody>
+<tr class="diff-hunk-hdr"><td colspan="4">@@ -39857,0 +39857,1 @@</td></tr>
+<tr class="diff-add"><td class="ln"></td><td class="ln">39857</td><td class="sg">+</td><td class="lc">&quot;popup_delete_tooltip&quot; &quot;Nhấn giữ để x&#243;a vật phẩm n&#224;y. Kh&#244;ng thể ho&#224;n t&#225;c sau khi x&#243;a vật phẩm.&quot;</td></tr>
+</tbody></table>
+</div>
 </section>
 <section id="scoring" class="csec">
-<h2 class="sh">Leak Signal Scoring — 0 pts total</h2>
-<div class="no-signals">No signals detected in this build — no new or changed localization, economy, or panorama content found.</div>
+<h2 class="sh">Leak Signal Scoring — 960 pts total</h2>
+<div class="stier slo">
+<div class="stier-hdr">Low Impact</div>
+<details class="sbucket" open>
+<summary><strong>Low — Localization</strong> &mdash; <span class="spts">960 pts</span> (16)</summary>
+<ul class="sevents">
+<li><span class="evtype">Localization</span><span class="dir-badge dir-add">NEW</span> +1 localization string(s) in resource/csgo_brazilian.txt &mdash; <strong>60</strong></li>
+<li><span class="evtype">Localization</span><span class="dir-badge dir-add">NEW</span> +1 localization string(s) in resource/csgo_czech.txt &mdash; <strong>60</strong></li>
+<li><span class="evtype">Localization</span><span class="dir-badge dir-add">NEW</span> +1 localization string(s) in resource/csgo_dutch.txt &mdash; <strong>60</strong></li>
+<li><span class="evtype">Localization</span><span class="dir-badge dir-add">NEW</span> +46 localization string(s) in resource/csgo_english.txt &mdash; <strong>60</strong></li>
+<li><span class="evtype">Localization</span><span class="dir-badge dir-add">NEW</span> +4 localization string(s) in resource/csgo_finnish.txt &mdash; <strong>60</strong></li>
+<li><span class="evtype">Localization</span><span class="dir-badge dir-add">NEW</span> +1 localization string(s) in resource/csgo_french.txt &mdash; <strong>60</strong></li>
+<li><span class="evtype">Localization</span><span class="dir-badge dir-add">NEW</span> +2 localization string(s) in resource/csgo_german.txt &mdash; <strong>60</strong></li>
+<li><span class="evtype">Localization</span><span class="dir-badge dir-add">NEW</span> +4 localization string(s) in resource/csgo_greek.txt &mdash; <strong>60</strong></li>
+<li><span class="evtype">Localization</span><span class="dir-badge dir-add">NEW</span> +1 localization string(s) in resource/csgo_hungarian.txt &mdash; <strong>60</strong></li>
+<li><span class="evtype">Localization</span><span class="dir-badge dir-add">NEW</span> +1 localization string(s) in resource/csgo_italian.txt &mdash; <strong>60</strong></li>
+<li><span class="evtype">Localization</span><span class="dir-badge dir-add">NEW</span> +1 localization string(s) in resource/csgo_japanese.txt &mdash; <strong>60</strong></li>
+<li><span class="evtype">Localization</span><span class="dir-badge dir-add">NEW</span> +2 localization string(s) in resource/csgo_norwegian.txt &mdash; <strong>60</strong></li>
+<li><span class="evtype">Localization</span><span class="dir-badge dir-add">NEW</span> +1 localization string(s) in resource/csgo_portuguese.txt &mdash; <strong>60</strong></li>
+<li><span class="evtype">Localization</span><span class="dir-badge dir-add">NEW</span> +3 localization string(s) in resource/csgo_russian.txt &mdash; <strong>60</strong></li>
+<li><span class="evtype">Localization</span><span class="dir-badge dir-add">NEW</span> +1 localization string(s) in resource/csgo_schinese.txt &mdash; <strong>60</strong></li>
+<li><span class="evtype">Localization</span><span class="dir-badge dir-add">NEW</span> +1 localization string(s) in resource/csgo_vietnamese.txt &mdash; <strong>60</strong></li>
+</ul></details>
+</div>
 </section>
 <section id="history" class="csec">
 <h2 class="sh">Build History <span class="scnt neu">3</span></h2>
 <table class="dtbl">
 <thead><tr><th>Build ID</th><th>Processed</th><th>ΔPaint Kits</th><th>ΔSkins</th><th>ΔStickers</th><th>Score</th><th>Patterns</th><th>Time</th></tr></thead><tbody>
-<tr class="rcur"><td class="mn">22099296 <span class="cbadge">current</span></td><td class="mn">Feb 25 2026 16:55</td><td>1,408 </td><td>2,802 </td><td>10,291 </td><td class="mn">0</td><td>—</td><td class="mn">3.1s</td></tr>
+<tr><td class="mn">22099296</td><td class="mn">Feb 25 2026 16:55</td><td>1,408 </td><td>2,802 </td><td>10,291 </td><td class="mn">0</td><td>—</td><td class="mn">3.1s</td></tr>
 <tr><td class="mn">22063930</td><td class="mn">Feb 24 2026 03:53</td><td>1,408 </td><td>2,802 </td><td>10,291 </td><td class="mn">0</td><td>—</td><td class="mn">1.3s</td></tr>
 <tr><td class="mn">21868850</td><td class="mn">Feb 23 2026 07:20</td><td>1,408 </td><td>2,802 </td><td>10,291 </td><td class="mn">0</td><td>—</td><td class="mn">1.2s</td></tr>
 </tbody></table></section>
 <section id="cs2-news" class="csec">
 <h2 class="sh">&#128240; CS2 Latest News</h2>
 <div class="news-grid">
+<article class="news-card">
+<div class="news-tag">CS2 Blog</div>
+<h3 class="news-title"><a href="https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1826362059919569" target="_blank" rel="noopener">Counter-Strike 2 Update</a></h3>
+<p class="news-excerpt">Starting today, items listed for sale on Steam Community Market will remain in your inventory for use while they are listed (e.g., your weapon can be equipped in your loadout while it is listed). While listed, items cannot be consumed or mo…</p>
+<div class="news-footer"><span class="news-date">Mar 4, 2026</span><a class="news-more" href="https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1826362059919569" target="_blank" rel="noopener">Read →</a></div>
+</article>
 <article class="news-card">
 <div class="news-tag">CS2 Blog</div>
 <h3 class="news-title"><a href="https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1825727806706141" target="_blank" rel="noopener">Counter-Strike 2 Update</a></h3>
@@ -542,19 +768,13 @@ th[data-sort="desc"]::after { content: " \25BC"; font-size: 8px; color: var(--ac
 <p class="news-excerpt">Damage from HE grenades that explode mid-air near the ground will no longer be calculated as if they exploded on the ground. Various knife sound adjustments. Performance optimizations for exploding chickens.Fixed a map scripting bug where E…</p>
 <div class="news-footer"><span class="news-date">Jan 30, 2026</span><a class="news-more" href="https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1823191198603765" target="_blank" rel="noopener">Read →</a></div>
 </article>
-<article class="news-card">
-<div class="news-tag">CS2 Blog</div>
-<h3 class="news-title"><a href="https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1822556746168133" target="_blank" rel="noopener">Counter-Strike 2 Update</a></h3>
-<p class="news-excerpt">Molotov/incendiary grenades that bounce off an enemy player have a one-time fuse extension added to prevent them from air-bursting when their has-never-hit-the-world timer elapses. Fixed a performance issue when running CS2 without a sound …</p>
-<div class="news-footer"><span class="news-date">Jan 27, 2026</span><a class="news-more" href="https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1822556746168133" target="_blank" rel="noopener">Read →</a></div>
-</article>
 </div>
 </section>
 </main>
 </div>
 <footer class="site-footer">
-  <div>AWPtimizr CS2 Extractor &mdash; Generated 2026-02-28 14:13:16 UTC &mdash; Data from Valve game files &mdash; Not affiliated with Valve</div>
-  <div class="ft-sub">Build 21868850 &#8594; 22099296</div>
+  <div>AWPtimizr CS2 Extractor &mdash; Generated 2026-03-04 23:02:58 UTC &mdash; Data from Valve game files &mdash; Not affiliated with Valve</div>
+  <div class="ft-sub">Build 22063930 &#8594; 22202104</div>
 </footer><script>
 (function() {
   const debounce = (fn, ms) => { let t; return (...a) => { clearTimeout(t); t = setTimeout(() => fn(...a), ms); }; };
